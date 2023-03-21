@@ -1,0 +1,32 @@
+.hello1 {
+    color: green;
+}
+h1 {
+    color: #ff00f0;
+}
+/* The last part in rgb is for transparency */
+.hello3, .hello4{
+    
+color: rgb(255,225,0, .2);
+}
+/* you can also use hsl or hsla for color */
+.hello5.otherClass1 {
+    color: blueviolet;
+}
+
+.div1 .dp1 {
+    color: cadetblue;
+}
+
+.div1{
+    height: inherit;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    /* margin is distance of whole from from the two axes of origin 
+       i.e top and left
+    */
+    margin: 50px;
+    border: 10px solid black;
+    background-color: red;
+}
