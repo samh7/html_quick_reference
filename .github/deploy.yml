@@ -1,15 +1,16 @@
-  name: Deploy to Github Pages
-
-  on:
-    push:
-      branches:
-        - main
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - name: test
-          run: |
-          echo test checkout action,
-          ls
+ name: Deploy to Github Pages
+  
+  
+ on:
+   push:
+     branches:
+       - main
+ jobs:
+   build:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v2
+       - name: test
+         run: |
+         echo test checkout action,
+         ls
