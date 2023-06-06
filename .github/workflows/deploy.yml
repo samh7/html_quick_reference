@@ -12,5 +12,5 @@
        - uses: actions/checkout@v2
        - name: test
          run: |
-         echo test checkout action,
-         ls
+          echo test checkout action,
+          ls
