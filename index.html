@@ -9,9 +9,34 @@
     <meta name="author" content="Sylvstr">
     <meta http-equiv="refresh" content="30">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <h1 class="hello1">
+        Hello World 1
+    </h1>
+    <h1 class="hello2">
+        Hello World 2
+    </h1>
+    <h1 class="hello3">
+        Hello World 3
+    </h1>
+    <h1 class="hello4">
+        Hello World 4
+    </h1>
+    <h1 class="hello5 otherClass1">
+        Hello World 5
+    </h1>
+    <h1 class="hello6 hello5 otherClass1">
+        Hello World 6
+    </h1>
+    <div class="div1">
+        <h3 class="dp1">
+            This is a paragraph within a div
+        </h3>
+    </div>
+
     #meta tags
     <p>
         !Check the head tags!
@@ -133,8 +158,8 @@
     <br>
     #tables
     <br>
-    <table bgcolor="black" width="700" >
-        <tr bgcolor="grey" >
+    <table bgcolor="black" width="700">
+        <tr bgcolor="grey">
             <!-- table row -->
             <th>
                 sunday
@@ -160,7 +185,7 @@
             </th>
 
         </tr>
-        <tr bgcolor="lightgrey"align="center">
+        <tr bgcolor="lightgrey" align="center">
             <td>
                 <!-- table data -->
                 closed
@@ -186,7 +211,7 @@
 
     <p style="color: blue; ">
         <span style="color: red;">Lorem ipsum Lorem ipsum Lorem ipsumdsf
-        Lorem ipsumLorem ipsumLorem ipsum Lorf
+            Lorem ipsumLorem ipsumLorem ipsum Lorf
         </span>
         em ipsumLorem ipsumLorem ipsumLorem ip
         sumLorem ipsumLorem ipsumLorem ipsum L
@@ -196,31 +221,31 @@
     <br>
     #divs // this is basically a container
     <br>
-<div style="background-color: blue;">
-    <p style="color: green;">
-        <span style="color: red;">Lorem ipsum Lorem ipsum Lorem ipsumdsf
-        Lorem ipsumLorem ipsumLorem ipsum Lorf
-        </span>
-        em ipsumLorem ipsumLorem ipsumLorem ip
-        sumLorem ipsumLorem ipsumLorem ipsum L
-        orem ipsumv Lorem ipsum Lorem ipsum vb
-        Lorem ipsum Lorem ipsum Lorem ipsum vk
-    </p>
-</div>
-<br>    
+    <div style="background-color: blue;">
+        <p style="color: green;">
+            <span style="color: red;">Lorem ipsum Lorem ipsum Lorem ipsumdsf
+                Lorem ipsumLorem ipsumLorem ipsum Lorf
+            </span>
+            em ipsumLorem ipsumLorem ipsumLorem ip
+            sumLorem ipsumLorem ipsumLorem ipsum L
+            orem ipsumv Lorem ipsum Lorem ipsum vb
+            Lorem ipsum Lorem ipsum Lorem ipsum vk
+        </p>
+    </div>
+    <br>
     #iframes //embeding content from other sites// can be easily abused
-<br>
-<iframe src="supportedsite.com" width="850" height="150"></iframe>
+    <br>
+    <iframe src="supportedsite.com" width="850" height="150"></iframe>
 
     <br>
     #buttons
     <br>
-    <button style="background-color: dimgrey;" >
+    <button style="background-color: dimgrey;">
         This is a button
     </button>
     <br>
     <a href="index.html">
-        <button style="background-color: dimgrey; color: green;" >
+        <button style="background-color: dimgrey; color: green;">
             This is a button
         </button>
     </a>
@@ -231,72 +256,73 @@
         SCRIPTING TEST
     </h1>
     <br>
-    <button onclick="runThisFunction()" style="background-color: dimgrey; color: green;" >
+    <button onclick="runThisFunction()" style="background-color: dimgrey; color: green;">
         press me
     </button>
     <script>
-        function runThisFunction(){
+        function runThisFunction() {
             document.getElementById("test").innerHTML = "<h2 style='color: green;'>You Pressed The Button<h2>"
         }
     </script>
-    
+
     <br>
     #forms
     <br>
     <form action="some_page.php//used as a examples" method="post">
         <div>
-        <label for="fname">first name</label>
-        <input type="text" id="fname" name="fname" placeholder="first name">
-    </div>
-    <br>
+            <label for="fname">first name</label>
+            <input type="text" id="fname" name="fname" placeholder="first name">
+            </div>
+            <br>
         <div>
-        <label for="lname">last name</label>
-        <input type="text" id="lname" name="lname" placeholder="last name">
-    </div>
-    <br>
-    <div>
-        <label for="password">password</label>
-        <input type="password" id="password" name="password" minlength="10" maxlength="20" placeholder="password">
-    </div>
-    <br>
-    <div>
-        <label for="email">email</label>
-        <input type="email" name="email" id="email">
-    </div>
-    <br>
-    <div>
-        <input type="date">
-    </div>
-    <br>
-    <div>
-        <label for="title">Title: </label>
-        <label>Mr.</label>
-        <input type="radio" name="title" value="mr">
-        <label>Mrs.</label>
-        <input type="radio" name="title" value="mrs">
-        <label>PhD.</label>
-        <input type="radio" name="title" value="phd">
-    </div>
-    <br>
-    <div>
-        <button type="reset">reset</button>
-    </div>
-    <div>
-        <button type="submit">submit</button>
-    </div>
-    <div>
-        <label for="vote">Vote</label>
-        <input type="checkbox" id="vote" name="vote">
-    </div>
-    <div>
-        <label for="payment">payment</label>
-        <select name="payment" id="payment">
-            <option value="visa">visa</option>
-            <option value="mastercard">Mastercard</option>
-            <option value="americanexpress">AmericanExpress</option>
-            <option value="giftcard">Giftcard</option>
-        </select>
-    </div>
+            <label for="lname">last name</label>
+            <input type="text" id="lname" name="lname" placeholder="last name">
+            </div>
+            <br>
+            <div>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" minlength="10" maxlength="20" placeholder="password">
+            </div>
+            <br>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <input type="date">
+            </div>
+            <br>
+            <div>
+                <label for="title">Title: </label>
+                <label>Mr.</label>
+                <input type="radio" name="title" value="mr">
+                <label>Mrs.</label>
+                <input type="radio" name="title" value="mrs">
+                <label>PhD.</label>
+                <input type="radio" name="title" value="phd">
+            </div>
+            <br>
+            <div>
+                <button type="reset">reset</button>
+            </div>
+            <div>
+                <button type="submit">submit</button>
+            </div>
+            <div>
+                <label for="vote">Vote</label>
+                <input type="checkbox" id="vote" name="vote">
+            </div>
+            <div>
+                <label for="payment">payment</label>
+                <select name="payment" id="payment">
+                    <option value="visa">visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="americanexpress">AmericanExpress</option>
+                    <option value="giftcard">Giftcard</option>
+                </select>
+            </div>
     </form>
 </body>
+
 </html>
