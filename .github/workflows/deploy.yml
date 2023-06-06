@@ -14,7 +14,12 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build and Deploy
+      run: |
+        mkdir -p deploy
+        cp index.html deploy/
+        cp style.css deploy/
+    - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
         branch: gh-pages
-        folder: ./
+        folder: deploy
