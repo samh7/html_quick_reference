@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, Web, Site, Online">
+    <meta name="author" content="AuthorName">
+    <meta http-equiv="refresh" content="30">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 class="hello1">
+        Hello World 1
+    </h1>
+    <h1 class="hello2">
+        Hello World 2
+    </h1>
+    <h1 class="hello3">
+        Hello World 3
+    </h1>
+    <h1 class="hello4">
+        Hello World 4
+    </h1>
+    <h1 class="hello5 otherClass1">
+        Hello World 5
+    </h1>
+    <h1 class="hello6 hello5 otherClass1">
+        Hello World 6
+    </h1>
+    <div class="div1">
+        <h3 class="dp1">
+            This is a paragraph within a div
+        </h3>
+    </div>
+
+    #meta tags
+    <p>
+        !Check the head tags!
+    </p>
+    <br>
+    #linebreak<br>
+    <br>
+
+    #horizontal line/rule<br>
+    <hr>
+
+    #hyperlinks<br>
+    <a href="google.com" target=_>link</a> //opens in new window<br>
+    <a href="google.com" target=_self>link</a>/opens in the same window// this is the default<br>
+    <a href="anotherPage.html" target="_self">anotherPage</a><br>
+
+    #images
+    <br>
+    <img src="./sou/rce/image.png" height="100" width="100" alt="this is a test image"
+        title="this is displayed when a cusror is hovered over the image ">
+    <br>
+
+    #images + hyperlinks<br>
+    <a href="imageSource.com">
+        <img src="image.png" />
+    </a>
+    <br>
+    #audio
+    <br>
+    <audio controls autoplay muted loop src="song.mp3"></audio>
+    <br>
+    <audio controls autoplay muted loop>
+        <source src="song.mp3">
+        <source src="song.wav">
+        If both formats are unsupported, display this
+    </audio>
+    <br>
+    #video <br>
+    <video src="video.mp4" controls autoplay muted loop width="100"></video>
+    <video controls autoplay muted loop width="100">
+        <source src="video.mp4">
+        <source src="video.mp4">
+    </video>
+
+    <br>
+    # text, paragraph and text styling
+    <p>This is a paragraph</p>
+    <p>this part is <b>bold</b></p>
+    <p>this part is <big>big</big></p>
+    <p>this part is <small>small</small></p>
+    <p>this part is <sub>subscripted</sub></p>
+    <p>this part is <ins>inserted/underlined</ins></p>
+    <p>this part is <del>deleted/striked through</del></p>
+    <p>this part is <sup>superscripted</sup></p>
+    <p>this part is <b>bold</b></p>
+    <p>this part is <mark>marked(colour marked)</mark></p>
+    <p>this part is <i>italicized</i></p>
+    <br>
+    #lists (can be nested)
+    <br>
+    #unordered list / can be nested
+    <br>
+    <ul>
+        <li>
+            pizaa
+        </li>
+        <li>
+            burger
+        </li>
+        <li>
+            sandwich
+        </li>
+        <li>
+            fries
+        </li>
+    </ul>
+    <br>
+    #ordered list / can be nested
+    <br>
+    <ol type="a">
+        <li>
+            pizaa
+        </li>
+        <li>
+            burger
+        </li>
+        <li>
+            sandwich
+        </li>
+        <li>
+            fries
+        </li>
+    </ol>
+    <br>
+    #description lists / can be nested
+    <br>
+    <dl>
+        <dt>
+            This is a description term 1
+        </dt>
+        <dd>
+            -This is a description definition 1
+            <!-- <dl>
+            <dt>
+                sdv
+            </dt>
+            <dd>
+                dssf
+            </dd>
+        </dl> -->
+        </dd>
+        <dt>
+            This is a description term 2
+        </dt>
+        <dd>
+            -This is a description definition 2
+        </dd>
+    </dl>
+    <br>
+    #tables
+    <br>
+    <table bgcolor="black" width="700">
+        <tr bgcolor="grey">
+            <!-- table row -->
+            <th>
+                sunday
+                <!-- table header -->
+            </th>
+            <th>
+                monday
+            </th>
+            <th>
+                tuesday
+            </th>
+            <th>
+                wednesday
+            </th>
+            <th>
+                thursday
+            </th>
+            <th>
+                friday
+            </th>
+            <th>
+                saturday
+            </th>
+
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>
+                <!-- table data -->
+                closed
+            </td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>closed</td>
+        </tr>
+    </table>
+
+    <br>
+    #inline html styling
+    <br>
+    <h1 style="color: blueviolet;">inline html styling</h1>
+    <h1 style="color: teal;">inline html styling</h1>
+    <h1 style="color: red;">inline html styling</h1>
+    <br>
+    #spans //adds markup to text
+    <br>
+
+    <p style="color: blue; ">
+        <span style="color: red;">Lorem ipsum Lorem ipsum Lorem ipsumdsf
+            Lorem ipsumLorem ipsumLorem ipsum Lorf
+        </span>
+        em ipsumLorem ipsumLorem ipsumLorem ip
+        sumLorem ipsumLorem ipsumLorem ipsum L
+        orem ipsumv Lorem ipsum Lorem ipsum vb
+        Lorem ipsum Lorem ipsum Lorem ipsum vk
+    </p>
+    <br>
+    #divs // this is basically a container
+    <br>
+    <div style="background-color: blue;">
+        <p style="color: green;">
+            <span style="color: red;">Lorem ipsum Lorem ipsum Lorem ipsumdsf
+                Lorem ipsumLorem ipsumLorem ipsum Lorf
+            </span>
+            em ipsumLorem ipsumLorem ipsumLorem ip
+            sumLorem ipsumLorem ipsumLorem ipsum L
+            orem ipsumv Lorem ipsum Lorem ipsum vb
+            Lorem ipsum Lorem ipsum Lorem ipsum vk
+        </p>
+    </div>
+    <br>
+    #iframes //embeding content from other sites// can be easily abused
+    <br>
+    <iframe src="supportedsite.com" width="850" height="150"></iframe>
+
+    <br>
+    #buttons
+    <br>
+    <button style="background-color: dimgrey;">
+        This is a button
+    </button>
+    <br>
+    <a href="index.html">
+        <button style="background-color: dimgrey; color: green;">
+            This is a button
+        </button>
+    </a>
+    <br>
+    #scripting using javascript
+    <br>
+    <h1 id="test">
+        SCRIPTING TEST
+    </h1>
+    <br>
+    <button onclick="runThisFunction()" style="background-color: dimgrey; color: green;">
+        press me
+    </button>
+    <script>
+        function runThisFunction() {
+            document.getElementById("test").innerHTML = "<h2 style='color: green;'>You Pressed The Button<h2>"
+        }
+    </script>
+
+    <br>
+    #forms
+    <br>
+    <form action="some_page.php//used as a examples" method="post">
+        <div>
+            <label for="fname">first name</label>
+            <input type="text" id="fname" name="fname" placeholder="first name">
+            </div>
+            <br>
+        <div>
+            <label for="lname">last name</label>
+            <input type="text" id="lname" name="lname" placeholder="last name">
+            </div>
+            <br>
+            <div>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" minlength="10" maxlength="20" placeholder="password">
+            </div>
+            <br>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <input type="date">
+            </div>
+            <br>
+            <div>
+                <label for="title">Title: </label>
+                <label>Mr.</label>
+                <input type="radio" name="title" value="mr">
+                <label>Mrs.</label>
+                <input type="radio" name="title" value="mrs">
+                <label>PhD.</label>
+                <input type="radio" name="title" value="phd">
+            </div>
+            <br>
+            <div>
+                <button type="reset">reset</button>
+            </div>
+            <div>
+                <button type="submit">submit</button>
+            </div>
+            <div>
+                <label for="vote">Vote</label>
+                <input type="checkbox" id="vote" name="vote">
+            </div>
+            <div>
+                <label for="payment">payment</label>
+                <select name="payment" id="payment">
+                    <option value="visa">visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="americanexpress">AmericanExpress</option>
+                    <option value="giftcard">Giftcard</option>
+                </select>
+            </div>
+    </form>
+</body>
+
+</html>
